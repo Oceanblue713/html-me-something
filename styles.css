@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color: white;
+    background-color: orange;
+    font-family: Monotype Corsiva;
+    font-size: 100px;
+    margin: 0;
+    
+}
+
+#menu{
+    overflow: hidden;
+    margin: 1px;
+    width: 300px;
+    float: left;
+    margin-top: 10px;
+    /*margin-right: auto;*/
+}
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li {
+    width: 240px;
+    /*float: left;*/
+    margin-left: 1px;
+    text-align: center;
+    background-color: #ffcc33;
+    font-size: 30px;
+    padding: 3px 10px;
+    margin-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    
+}
+.bento{
+    width: 900px;
+    float: right;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+.pic{
+    margin-top: 10px;
+    width: 900px;
+    float: right;
+    text-align: center;
+}
+
+.bento::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*.title1{
+    text-align: left;
+}
+*/
+
+.wiki{
+    text-align: left;
+    margin-left: 20px;
+　　clear: left;
+　　border: 2px red;
+    
+}
+
+.letter{
+    font-family: oblique;
+}
+footer{
+    background-color: #ffc266;
+    text-align: center;
+    clear: both;
+}
